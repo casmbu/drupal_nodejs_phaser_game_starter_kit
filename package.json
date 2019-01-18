@@ -1,0 +1,45 @@
+{
+  "name": "example_game_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/client/client.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casmbu/drupal_nodejs_phaser_game_starter_kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casmbu/drupal_nodejs_phaser_game_starter_kit/issues"
+  },
+  "homepage": "https://github.com/casmbu/drupal_nodejs_phaser_game_starter_kit#readme",
+  "dependencies": {
+    "phaser": "^3.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "nodejs": "0.0.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

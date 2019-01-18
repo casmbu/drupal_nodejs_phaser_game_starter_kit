@@ -1,0 +1,8 @@
+name: Example Game Module
+description: Example Game Module.
+package: Custom
+type: module
+version: 0.1
+core: 8.x
+dependencies:
+  - nodejs:nodejs

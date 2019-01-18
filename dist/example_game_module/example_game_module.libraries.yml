@@ -1,0 +1,9 @@
+example_game_module.phaser:
+  js:
+    js/phaser.min.js: {}
+
+example_game_module.game:
+  js:
+    js/client.bundle.js: {}
+  dependencies:
+    - core/drupal

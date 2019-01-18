@@ -1,0 +1,7 @@
+example_game_module.main_page:
+  path: '/example_game_module'
+  defaults:
+    _controller: '\Drupal\example_game_module\Controller\ProjectGreenBanjoController::mainPage'
+    _title: 'The main page of Example Game Module'
+  requirements:
+    _permission: 'access content'
